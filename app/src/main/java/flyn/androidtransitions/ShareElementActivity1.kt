@@ -21,5 +21,6 @@ class ShareElementActivity1 : BaseActivity() {
             val activityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(ShareElementActivity1@ this, *pairs)
             ActivityCompat.startActivity(this, Intent(ShareElementActivity1@ this, ShareElementActivity2::class.java), activityOptions.toBundle())
         }
+
     }
 }
