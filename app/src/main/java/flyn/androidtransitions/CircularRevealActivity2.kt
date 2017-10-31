@@ -12,6 +12,7 @@ class CircularRevealActivity2 : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        title = "CircularRevealActivity2"
         setContentView(R.layout.activity_circular_reveal2)
 
         val x = intent.getFloatExtra("x", 0F)
@@ -32,7 +33,8 @@ class CircularRevealActivity2 : BaseActivity() {
 
                 override fun onAnimationEnd(animation: Animator?) {
                     imageView.visibility = View.GONE
-                    finishAfterTransition()
+                    finish()
+                    overridePendingTransition(0, 0)
                 }
 
                 override fun onAnimationCancel(animation: Animator?) {

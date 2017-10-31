@@ -9,6 +9,7 @@ class CircularRevealActivity1 : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        title = "CircularRevealActivity1"
         setContentView(R.layout.activity_circular_reveal1)
 
         rootView.setOnTouchListener({ _, event ->
@@ -16,7 +17,7 @@ class CircularRevealActivity1 : BaseActivity() {
             i.putExtra("x", event.x)
             i.putExtra("y", event.y)
             startActivity(i)
-
+            overridePendingTransition(0, 0)
             false
         })
 
