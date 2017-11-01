@@ -10,6 +10,26 @@
         <item name="android:statusBarColor">@color/colorPrimary</item>
         <item name="android:windowAllowEnterTransitionOverlap">true</item>
         <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementsUseOverlay">true</item>
     </style>
+
+    <style name="InterpolatorDurationStartDelayActivity1" parent="AppTheme">
+        <!--<item name="android:windowReenterTransition">-->
+            <!--@transition/interpolator_duration_start_delay_activity1_reenter-->
+        <!--</item>-->
+        <!--<item name="android:windowExitTransition">-->
+            <!--@transition/interpolator_duration_start_delay_activity1_exit-->
+        <!--</item>-->
+    </style>
+
+    <style name="InterpolatorDurationStartDelayActivity2" parent="AppTheme">
+        <item name="android:windowEnterTransition">
+            @transition/interpolator_duration_start_delay_activity2_enter
+        </item>
+        <item name="android:windowReturnTransition">
+            @transition/interpolator_duration_start_delay_activity2_return
+        </item>
+    </style>
+
 
 </resources>

@@ -22,5 +22,6 @@ class ShareElementActivity1 : BaseActivity() {
             ActivityCompat.startActivity(this, Intent(ShareElementActivity1@ this, ShareElementActivity2::class.java), activityOptions.toBundle())
         }
 
+
     }
 }

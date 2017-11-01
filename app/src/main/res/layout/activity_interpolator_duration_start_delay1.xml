@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="button1"
-        app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintLeft_toLeftOf="@id/rootView"
         app:layout_constraintRight_toRightOf="@id/rootView"
         app:layout_constraintTop_toTopOf="@id/rootView" />

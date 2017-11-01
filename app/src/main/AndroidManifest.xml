@@ -18,8 +18,12 @@
         </activity>
         <activity android:name=".ShareElementActivity1" />
         <activity android:name=".ShareElementActivity2" />
-        <activity android:name=".InterpolatorDurationStartDelayActivity1" />
-        <activity android:name=".InterpolatorDurationStartDelayActivity2" />
+        <activity
+            android:name=".InterpolatorDurationStartDelayActivity1"
+            android:theme="@style/InterpolatorDurationStartDelayActivity1" />
+        <activity
+            android:name=".InterpolatorDurationStartDelayActivity2"
+            android:theme="@style/InterpolatorDurationStartDelayActivity2" />
         <activity android:name=".CircularRevealActivity1" />
         <activity android:name=".CircularRevealActivity2" />
     </application>
