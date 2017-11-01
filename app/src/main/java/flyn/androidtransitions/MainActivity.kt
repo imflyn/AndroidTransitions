@@ -16,6 +16,7 @@ class MainActivity : BaseActivity(), View.OnClickListener {
         button1.setOnClickListener(this)
         button2.setOnClickListener(this)
         button3.setOnClickListener(this)
+        button4.setOnClickListener(this)
     }
 
 
@@ -24,6 +25,7 @@ class MainActivity : BaseActivity(), View.OnClickListener {
             R.id.button1 -> startActivity(Intent(this, ShareElementActivity1::class.java))
             R.id.button2 -> startActivity(Intent(this, InterpolatorDurationStartDelayActivity1::class.java))
             R.id.button3 -> startActivity(Intent(this, CircularRevealActivity1::class.java))
+            R.id.button4 -> startActivity(Intent(this, PathMotionActivity1::class.java))
 
         }
     }

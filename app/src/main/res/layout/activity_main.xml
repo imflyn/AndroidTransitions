@@ -35,4 +35,16 @@
         app:layout_constraintEnd_toEndOf="@id/button2"
         app:layout_constraintStart_toStartOf="@id/button2"
         app:layout_constraintTop_toBottomOf="@id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:layout_marginTop="10dip"
+        android:text="PathMotion"
+        app:layout_constraintEnd_toEndOf="@id/button3"
+        app:layout_constraintStart_toStartOf="@id/button3"
+        app:layout_constraintTop_toBottomOf="@id/button3" />
+
+
 </android.support.constraint.ConstraintLayout>

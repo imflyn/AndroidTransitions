@@ -22,6 +22,8 @@
         <activity android:name=".InterpolatorDurationStartDelayActivity2" />
         <activity android:name=".CircularRevealActivity1" />
         <activity android:name=".CircularRevealActivity2" />
+        <activity android:name=".PathMotionActivity1" />
+        <activity android:name=".PathMotionActivity2" />
     </application>
 
 </manifest>
