@@ -13,7 +13,7 @@ abstract class BaseActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         when (item?.itemId) {
-            android.R.id.home -> onBackPressed()
+            android.R.id.home -> supportFinishAfterTransition()
         }
         return super.onOptionsItemSelected(item)
     }

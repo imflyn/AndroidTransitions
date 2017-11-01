@@ -7,13 +7,12 @@
 
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="416dp"
         android:text="button2"
         android:transitionName="@string/button"
-        app:layout_constraintHorizontal_bias="0.858"
         app:layout_constraintLeft_toLeftOf="@id/rootView"
         app:layout_constraintRight_toRightOf="@id/rootView"
         app:layout_constraintTop_toTopOf="@id/rootView" />
