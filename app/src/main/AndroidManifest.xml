@@ -28,6 +28,8 @@
         <activity android:name=".ExplodeActivity2" />
         <activity android:name=".ChangeBoundsActivity1" />
         <activity android:name=".ChangeBoundsActivity2" />
+        <activity android:name=".ChangeClipBoundsActivity1" />
+        <activity android:name=".ChangeClipBoundsActivity2" />
     </application>
 
 </manifest>

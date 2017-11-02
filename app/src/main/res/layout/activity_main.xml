@@ -1,70 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/rootView"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="48dip"
-        android:layout_marginTop="20dip"
-        android:text="ShareElement"
-        app:layout_constraintLeft_toLeftOf="@id/rootView"
-        app:layout_constraintRight_toRightOf="@id/rootView"
-        app:layout_constraintTop_toTopOf="@id/rootView" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="48dip"
-        android:layout_marginTop="10dip"
-        android:text="Slide"
-        app:layout_constraintEnd_toEndOf="@id/button1"
-        app:layout_constraintStart_toStartOf="@id/button1"
-        app:layout_constraintTop_toBottomOf="@id/button1" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="48dip"
-        android:layout_marginTop="10dip"
-        android:text="CircularReveal"
-        app:layout_constraintEnd_toEndOf="@id/button2"
-        app:layout_constraintStart_toStartOf="@id/button2"
-        app:layout_constraintTop_toBottomOf="@id/button2" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="48dip"
-        android:layout_marginTop="10dip"
-        android:text="PathMotion"
-        app:layout_constraintEnd_toEndOf="@id/button3"
-        app:layout_constraintStart_toStartOf="@id/button3"
-        app:layout_constraintTop_toBottomOf="@id/button3" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="48dip"
-        android:layout_marginTop="10dip"
-        android:text="Explode"
-        app:layout_constraintEnd_toEndOf="@id/button4"
-        app:layout_constraintStart_toStartOf="@id/button4"
-        app:layout_constraintTop_toBottomOf="@id/button4" />
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="48dip"
-        android:layout_marginTop="10dip"
-        android:text="ChangeBounds"
-        app:layout_constraintEnd_toEndOf="@id/button5"
-        app:layout_constraintStart_toStartOf="@id/button5"
-        app:layout_constraintTop_toBottomOf="@id/button5" />
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/rootView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
 
-</android.support.constraint.ConstraintLayout>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_marginTop="20dip"
+            android:text="ShareElement"
+            app:layout_constraintLeft_toLeftOf="@id/rootView"
+            app:layout_constraintRight_toRightOf="@id/rootView"
+            app:layout_constraintTop_toTopOf="@id/rootView" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_marginTop="10dip"
+            android:text="Slide"
+            app:layout_constraintEnd_toEndOf="@id/button1"
+            app:layout_constraintStart_toStartOf="@id/button1"
+            app:layout_constraintTop_toBottomOf="@id/button1" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_marginTop="10dip"
+            android:text="CircularReveal"
+            app:layout_constraintEnd_toEndOf="@id/button2"
+            app:layout_constraintStart_toStartOf="@id/button2"
+            app:layout_constraintTop_toBottomOf="@id/button2" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_marginTop="10dip"
+            android:text="PathMotion"
+            app:layout_constraintEnd_toEndOf="@id/button3"
+            app:layout_constraintStart_toStartOf="@id/button3"
+            app:layout_constraintTop_toBottomOf="@id/button3" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_marginTop="10dip"
+            android:text="Explode"
+            app:layout_constraintEnd_toEndOf="@id/button4"
+            app:layout_constraintStart_toStartOf="@id/button4"
+            app:layout_constraintTop_toBottomOf="@id/button4" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_marginTop="10dip"
+            android:text="ChangeBounds"
+            app:layout_constraintEnd_toEndOf="@id/button5"
+            app:layout_constraintStart_toStartOf="@id/button5"
+            app:layout_constraintTop_toBottomOf="@id/button5" />
+
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_marginTop="10dip"
+            android:text="ChangeClipBounds"
+            app:layout_constraintEnd_toEndOf="@id/button6"
+            app:layout_constraintStart_toStartOf="@id/button6"
+            app:layout_constraintTop_toBottomOf="@id/button6" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

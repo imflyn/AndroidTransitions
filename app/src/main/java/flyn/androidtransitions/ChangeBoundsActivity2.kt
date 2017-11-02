@@ -2,8 +2,8 @@ package flyn.androidtransitions
 
 import android.os.Bundle
 import android.transition.ArcMotion
+import android.transition.ChangeBounds
 import android.view.View
-import flyn.androidtransitions.animiation.MyChangeBounds
 import kotlinx.android.synthetic.main.activity_change_bounds2.*
 
 class ChangeBoundsActivity2 : BaseActivity(), View.OnClickListener {
@@ -18,7 +18,7 @@ class ChangeBoundsActivity2 : BaseActivity(), View.OnClickListener {
         arcMotion.minimumHorizontalAngle = 50f
         arcMotion.minimumVerticalAngle = 50f
 
-        val changeBounds = MyChangeBounds()
+        val changeBounds = ChangeBounds()
         changeBounds.pathMotion = arcMotion
         changeBounds.addTarget(textView1)
         changeBounds.addTarget(textView2)
