@@ -18,12 +18,14 @@
         </activity>
         <activity android:name=".ShareElementActivity1" />
         <activity android:name=".ShareElementActivity2" />
-        <activity android:name=".InterpolatorDurationStartDelayActivity1" />
-        <activity android:name=".InterpolatorDurationStartDelayActivity2" />
+        <activity android:name=".SlideActivity1" />
+        <activity android:name=".SlideActivity2" />
         <activity android:name=".CircularRevealActivity1" />
         <activity android:name=".CircularRevealActivity2" />
         <activity android:name=".PathMotionActivity1" />
         <activity android:name=".PathMotionActivity2" />
+        <activity android:name=".ExplodeActivity1" />
+        <activity android:name=".ExplodeActivity2" />
     </application>
 
 </manifest>

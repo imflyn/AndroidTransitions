@@ -9,14 +9,14 @@ import android.transition.Fade
 import android.transition.Slide
 import android.transition.TransitionSet
 import android.view.Gravity
-import kotlinx.android.synthetic.main.activity_interpolator_duration_start_delay1.*
+import kotlinx.android.synthetic.main.activity_slide1.*
 
-class InterpolatorDurationStartDelayActivity1 : BaseActivity() {
+class SlideActivity1 : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        title = "Activity1"
-        setContentView(R.layout.activity_interpolator_duration_start_delay1)
+        title = "SlideActivity1"
+        setContentView(R.layout.activity_slide1)
 
 
         val slide1 = Slide()
@@ -52,7 +52,7 @@ class InterpolatorDurationStartDelayActivity1 : BaseActivity() {
 
         button1.setOnClickListener {
             val activityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(this)
-            ActivityCompat.startActivity(this, Intent(this, InterpolatorDurationStartDelayActivity2::class.java), activityOptions.toBundle())
+            ActivityCompat.startActivity(this, Intent(this, SlideActivity2::class.java), activityOptions.toBundle())
         }
     }
 

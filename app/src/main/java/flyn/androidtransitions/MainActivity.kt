@@ -17,15 +17,17 @@ class MainActivity : BaseActivity(), View.OnClickListener {
         button2.setOnClickListener(this)
         button3.setOnClickListener(this)
         button4.setOnClickListener(this)
+        button5.setOnClickListener(this)
     }
 
 
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.button1 -> startActivity(Intent(this, ShareElementActivity1::class.java))
-            R.id.button2 -> startActivity(Intent(this, InterpolatorDurationStartDelayActivity1::class.java))
+            R.id.button2 -> startActivity(Intent(this, SlideActivity1::class.java))
             R.id.button3 -> startActivity(Intent(this, CircularRevealActivity1::class.java))
             R.id.button4 -> startActivity(Intent(this, PathMotionActivity1::class.java))
+            R.id.button5 -> startActivity(Intent(this, ExplodeActivity1::class.java))
 
         }
     }
