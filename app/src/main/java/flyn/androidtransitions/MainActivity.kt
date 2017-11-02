@@ -18,6 +18,7 @@ class MainActivity : BaseActivity(), View.OnClickListener {
         button3.setOnClickListener(this)
         button4.setOnClickListener(this)
         button5.setOnClickListener(this)
+        button6.setOnClickListener(this)
     }
 
 
@@ -28,6 +29,7 @@ class MainActivity : BaseActivity(), View.OnClickListener {
             R.id.button3 -> startActivity(Intent(this, CircularRevealActivity1::class.java))
             R.id.button4 -> startActivity(Intent(this, PathMotionActivity1::class.java))
             R.id.button5 -> startActivity(Intent(this, ExplodeActivity1::class.java))
+            R.id.button6 -> startActivity(Intent(this, ChangeBoundsActivity1::class.java))
 
         }
     }

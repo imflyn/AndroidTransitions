@@ -2,5 +2,8 @@
 <resources>
 
     <string name="button">button</string>
+    <string name="textView1">textView1</string>
+    <string name="textView2">textView2</string>
+    <string name="view1">view1</string>
 
 </resources>

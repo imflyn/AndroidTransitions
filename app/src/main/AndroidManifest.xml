@@ -26,6 +26,8 @@
         <activity android:name=".PathMotionActivity2" />
         <activity android:name=".ExplodeActivity1" />
         <activity android:name=".ExplodeActivity2" />
+        <activity android:name=".ChangeBoundsActivity1" />
+        <activity android:name=".ChangeBoundsActivity2" />
     </application>
 
 </manifest>
