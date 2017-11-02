@@ -13,6 +13,7 @@ class ShareElementActivity1 : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        title = "ShareElementActivity1"
         setContentView(R.layout.activity_shareelement1)
 
 

@@ -7,10 +7,10 @@
 
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button2"
         android:layout_width="300dip"
         android:layout_height="56dip"
-        android:text="Good"
+        android:text="button2"
         android:transitionName="@string/button"
         app:layout_constraintBottom_toBottomOf="@id/rootView"
         app:layout_constraintLeft_toLeftOf="@id/rootView"
