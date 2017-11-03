@@ -1,8 +1,12 @@
 package flyn.androidtransitions
 
+import android.graphics.Rect
 import android.os.Bundle
+import android.transition.ChangeBounds
 import android.transition.ChangeClipBounds
+import android.transition.TransitionSet
 import kotlinx.android.synthetic.main.activity_change_clip_bounds2.*
+
 
 class ChangeClipBoundsActivity2 : BaseActivity() {
 
@@ -11,16 +15,22 @@ class ChangeClipBoundsActivity2 : BaseActivity() {
         title = "ChangeClipBoundsActivity2"
         setContentView(R.layout.activity_change_clip_bounds2)
 
-
+        val changeBounds = ChangeBounds()
         val changeClipBounds = ChangeClipBounds()
-        changeClipBounds.addTarget(view1)
-        changeClipBounds.duration = 2000
+        val transition = TransitionSet()
+        transition.duration = 2000
+        transition.addTransition(changeBounds)
+//        transition.addTransition(changeClipBounds)
 
-        window.sharedElementEnterTransition = changeClipBounds
-        window.enterTransition = changeClipBounds
+        window.sharedElementEnterTransition = transition
+        window.enterTransition = transition
 
-        window.sharedElementReturnTransition = changeClipBounds
-        window.returnTransition = null
+        window.sharedElementReturnTransition = transition
+        window.returnTransition = transition
+
+        imageView.clipBounds = Rect(0, 0, 200, 200)
+
     }
+
 
 }

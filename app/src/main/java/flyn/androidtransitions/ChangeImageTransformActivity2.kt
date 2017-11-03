@@ -27,7 +27,7 @@ class ChangeImageTransformActivity2 : AppCompatActivity() {
         val transition = TransitionSet()
         transition.addTransition(changeImageTransform)
         transition.addTransition(changeBounds)
-        transition.addTransition(changeClipBounds)
+//        transition.addTransition(changeClipBounds)
         transition.duration = 700
         transition.excludeTarget(android.R.id.statusBarBackground, false)
         transition.excludeTarget(android.R.id.navigationBarBackground, false)
