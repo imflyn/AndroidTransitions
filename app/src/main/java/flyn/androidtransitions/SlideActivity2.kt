@@ -1,7 +1,6 @@
 package flyn.androidtransitions
 
 import android.os.Bundle
-import android.support.v4.view.animation.LinearOutSlowInInterpolator
 import android.transition.Fade
 import android.transition.Slide
 import android.transition.TransitionSet
@@ -19,7 +18,6 @@ class SlideActivity2 : BaseActivity() {
         val slide = Slide()
         slide.slideEdge = Gravity.START
         slide.duration = 2000
-        slide.interpolator = LinearOutSlowInInterpolator()
         slide.targets.add(button2)
         slide.excludeTarget(android.R.id.statusBarBackground, true)
         slide.excludeTarget(android.R.id.navigationBarBackground, true)
@@ -31,7 +29,6 @@ class SlideActivity2 : BaseActivity() {
         slide2.slideEdge = Gravity.END
         slide2.duration = 2000
         slide2.startDelay = 100
-        slide2.interpolator = LinearOutSlowInInterpolator()
         slide2.targets.add(button2)
         slide2.excludeTarget(android.R.id.statusBarBackground, true)
         slide2.excludeTarget(android.R.id.navigationBarBackground, true)
