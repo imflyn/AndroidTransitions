@@ -22,6 +22,7 @@ class MainActivity : BaseActivity(), View.OnClickListener {
         button7.setOnClickListener(this)
         button8.setOnClickListener(this)
         button9.setOnClickListener(this)
+        button10.setOnClickListener(this)
     }
 
 
@@ -36,6 +37,7 @@ class MainActivity : BaseActivity(), View.OnClickListener {
             R.id.button7 -> startActivity(Intent(this, ChangeClipBoundsActivity1::class.java))
             R.id.button8 -> startActivity(Intent(this, ChangeImageTransformActivity1::class.java))
             R.id.button9 -> startActivity(Intent(this, ChangeColorActivity1::class.java))
+            R.id.button10 -> startActivity(Intent(this, ChangeScrollActivity1::class.java))
 
         }
     }
